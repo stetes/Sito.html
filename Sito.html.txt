@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sito Aziendale</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333333;
+        }
+        header {
+            background-color: #40E0D0; /* Turchese */
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ffffff;
+            padding: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #40E0D0; /* Turchese */
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section {
+            padding: 20px 0;
+        }
+        .section:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        footer {
+            background-color: #333333;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nome Azienda</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#chi-siamo">Chi Siamo</a>
+        <a href="#comprare">Comprare</a>
+        <a href="#vendere">Vendere</a>
+        <a href="#chat-ia">Chat IA</a>
+        <a href="#contatto">Contatto</a>
+    </nav>
+    <div class="container">
+        <section id="home" class="section">
+            <h2>Home</h2>
+            <p>Benvenuti nel nostro sito aziendale!</p>
+        </section>
+        <section id="chi-siamo" class="section">
+            <h2>Chi Siamo</h2>
+            <p>Informazioni sulla nostra azienda...</p>
+        </section>
+        <section id="comprare" class="section">
+            <h2>Comprare</h2>
+            <p>Informazioni su come comprare i nostri prodotti...</p>
+        </section>
+        <section id="vendere" class="section">
+            <h2>Vendere</h2>
+            <p>Informazioni su come vendere i tuoi prodotti con noi...</p>
+        </section>
+        <section id="chat-ia" class="section">
+            <h2>Chat IA</h2>
+            <p>Interagisci con la nostra chat basata su Intelligenza Artificiale...</p>
+        </section>
+        <section id="contatto" class="section">
+            <h2>Contatto</h2>
+            <p>Contattaci per maggiori informazioni...</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Nome Azienda. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
